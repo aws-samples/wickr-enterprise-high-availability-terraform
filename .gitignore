@@ -1,0 +1,7 @@
+.terraform*
+*.auto.tfvars
+s3.tfbackend
+*.pem
+Licence.yaml
+
+cloudformation.yaml
