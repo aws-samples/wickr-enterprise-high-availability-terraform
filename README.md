@@ -151,8 +151,8 @@ to see which resources will be destroyed, followed by `yes` (when prompted, if y
 
 
 ## Authors and acknowledgment
-This project was built by Ryan Stanley (rwstan@amazon.com) 
-but based entirely on Charles Chowdhury-Hanscombe (charlcch@amazon.co.uk)'s prior work using CloudFormation:
+This project was built by Ryan S (rwstan@amazon.com) 
+but based entirely on Charles C (charlcch@amazon.co.uk)'s prior work using CloudFormation:
 https://github.com/aws-samples/wickr-enterprise-high-availability-cloudformation
 
 
