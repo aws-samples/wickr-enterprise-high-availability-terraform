@@ -1,3 +1,6 @@
+// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// SPDX-License-Identifier: MIT-0
+
 resource "aws_vpc" "this" {
   cidr_block           = var.vpc_cidr_range
   enable_dns_hostnames = true

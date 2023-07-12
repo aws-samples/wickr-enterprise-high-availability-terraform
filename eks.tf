@@ -1,3 +1,6 @@
+// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// SPDX-License-Identifier: MIT-0
+
 resource "aws_eks_cluster" "this" {
   name     = "wickr-ha"
   role_arn = aws_iam_role.eks_cluster_role.arn

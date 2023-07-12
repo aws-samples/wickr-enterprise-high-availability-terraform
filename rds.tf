@@ -1,3 +1,6 @@
+// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// SPDX-License-Identifier: MIT-0
+
 data "aws_secretsmanager_secret_version" "this" {
   depends_on = [aws_secretsmanager_secret_version.this]
   secret_id  = aws_secretsmanager_secret.this.id

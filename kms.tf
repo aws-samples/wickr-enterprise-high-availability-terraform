@@ -1,3 +1,6 @@
+// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// SPDX-License-Identifier: MIT-0
+
 resource "aws_kms_key" "secretsmanager" {
   enable_key_rotation     = true
   deletion_window_in_days = 7
