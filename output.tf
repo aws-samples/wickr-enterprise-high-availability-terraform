@@ -1,3 +1,6 @@
+// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// SPDX-License-Identifier: MIT-0
+
 data "aws_arn" "jump_box_arn" {
   arn = aws_instance.jump_box.arn
 }

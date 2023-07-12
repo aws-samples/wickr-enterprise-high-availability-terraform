@@ -1,3 +1,6 @@
+// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// SPDX-License-Identifier: MIT-0
+
 resource "aws_iam_role" "eks_cluster_role" {
   name = "WickrEKSClusterRole"
   assume_role_policy = jsonencode({
