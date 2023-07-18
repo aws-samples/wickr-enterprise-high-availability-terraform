@@ -31,7 +31,7 @@ variable "public_ingress_cidr" {
 
 variable "eks_version" {
   type    = string
-  default = "1.23"
+  default = "1.26"
 }
 
 variable "ssh_key_name" {
